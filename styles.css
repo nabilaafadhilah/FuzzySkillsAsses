@@ -1,0 +1,142 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #070F2B ;
+    height: 100%;
+}
+
+.container {
+    top: 10%;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #1B1A55;
+    box-shadow: 0 0 10px #535C91;
+    border-radius: 10px;
+    
+}
+
+
+h2 {
+    color: #fbf8f8;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+form {
+    margin-bottom: 20px;
+    color: #ddd;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    display: block;
+    width: 50%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 auto;
+    
+}
+
+button:hover {
+    background-color: #283d29;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    color: #ffffff;
+
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #535C91;
+}
+
+
+#results {
+    margin-top: 20px;
+}
+
+.highlight1 {
+    background-color: rgb(144, 107, 174);
+    padding: 3px 5px;
+    border-radius: 3px;
+}
+
+.highlight2 {
+    background-color: rgb(13, 156, 140);
+    padding: 3px 5px;
+    border-radius: 3px;
+}
+
+.highlight3 {
+    background-color: rgb(255, 0, 0);
+    padding: 3px 5px;
+    border-radius: 3px;
+}
+
+.lowlight {
+    background-color: #152564;
+    padding: 3px 5px;
+    color: #0c1742;
+    border-radius: 3px;
+}
+
+footer {
+    text-align: center; /* Mengatur teks agar berada di tengah */
+    background-color: #0b2a43; /* Mengatur warna background */
+    padding: 0.1rem; /* Memberi padding */
+    color: white; /* Mengatur warna teks */
+    position: fixed; /* Mengatur posisi tetap di bawah */
+    width: 100%; /* Mengatur lebar penuh */
+    bottom: 0; /* Menempatkan di bawah halaman */
+}
+
+.membership-bar {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: #fff;
+    margin-right: 5px;
+}
+
+
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+
+    input {
+        width: calc(100% - 18px);
+    }
+}
